@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicisUA", "BicisUA\BicisUA.csproj", "{DB3B979C-F86A-4750-A26D-3A3943D4400D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "Aplicacion\Aplicacion.csproj", "{9114D4D5-08E1-4FAA-A23B-C7D3BB2EFCD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB3B979C-F86A-4750-A26D-3A3943D4400D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3B979C-F86A-4750-A26D-3A3943D4400D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3B979C-F86A-4750-A26D-3A3943D4400D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3B979C-F86A-4750-A26D-3A3943D4400D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9114D4D5-08E1-4FAA-A23B-C7D3BB2EFCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9114D4D5-08E1-4FAA-A23B-C7D3BB2EFCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9114D4D5-08E1-4FAA-A23B-C7D3BB2EFCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9114D4D5-08E1-4FAA-A23B-C7D3BB2EFCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

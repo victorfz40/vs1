@@ -1,0 +1,4 @@
+C:\Users\Vic\Desktop\PracticaWebHada1\Aplicacion\bin\Debug\Aplicacion.dll
+C:\Users\Vic\Desktop\PracticaWebHada1\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\Vic\Desktop\PracticaWebHada1\Aplicacion\obj\Debug\Aplicacion.dll
+C:\Users\Vic\Desktop\PracticaWebHada1\Aplicacion\obj\Debug\Aplicacion.pdb
