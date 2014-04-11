@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CADPedidos.cs" />
     <Compile Include="CADProductos.cs" />
+    <Compile Include="ENLinped.cs" />
+    <Compile Include="ENPedidos.cs" />
     <Compile Include="ENProductos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
