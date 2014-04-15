@@ -16,22 +16,22 @@ namespace Aplicacion
             get { return conexion; }
             set { conexion = value; }
         }
-        public ENProductos obtenerPedido(int Id)
+        public ENProductos ObtenerPedido(int Id)
         {
             ENPedidos p = new ENPedidos();
             return p;
         }
-        public static ENPedidos[] obtenerPedidos()
+        public static ENPedidos[] ObtenerPedidos()
         {
             ENPedidos[] pt = new ENPedidos[3];
             return pt;
         }
-        public int nuevo(ENPedidos p)
+        public int Nuevo(ENPedidos p)
         {
             ENPedidos pn = new ENPedidos();
             return 1;//Si es OK devuelve el ID
         }
-        public int actualizarPedido()
+        public int ActualizarPedido()
         {
             // ......
             return 1;//Si es OK devuelve el ID

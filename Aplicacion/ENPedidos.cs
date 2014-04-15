@@ -9,97 +9,117 @@ namespace Aplicacion
     {
         private ENLinped lineas;
 
-        private int Id;
+        private int id;
 
-        public int Id1
-        {
-            get { return Id; }
-            set { Id = value; }
-        }
-        private string Fecha;
 
-        public string Fecha1
-        {
-            get { return Fecha; }
-            set { Fecha = value; }
-        }
-        private int IdCliente;
+        private string fecha;
 
-        public int IdCliente1
+        public string Fecha
         {
-            get { return IdCliente; }
-            set { IdCliente = value; }
+            get { return fecha; }
+            set { fecha = value; }
         }
-        private string Nombre;
 
-        public string Nombre1
-        {
-            get { return Nombre; }
-            set { Nombre = value; }
-        }
-        private string NIF;
 
-        public string NIF1
-        {
-            get { return NIF; }
-            set { NIF = value; }
-        }
-        private string Direccion;
+        private int idCliente;
 
-        public string Direccion1
+        public int IdCliente
         {
-            get { return Direccion; }
-            set { Direccion = value; }
+            get { return idCliente; }
+            set { idCliente = value; }
         }
-        private string CP;
 
-        public string CP1
-        {
-            get { return CP; }
-            set { CP = value; }
-        }
-        private string Poblacion;
 
-        public string Poblacion1
-        {
-            get { return Poblacion; }
-            set { Poblacion = value; }
-        }
-        private int IdProvincia;
+        private string nombre;
 
-        public int IdProvincia1
+        public string Nombre
         {
-            get { return IdProvincia; }
-            set { IdProvincia = value; }
+            get { return nombre; }
+            set { nombre = value; }
         }
-        private int IdPais;
 
-        public int IdPais1
-        {
-            get { return IdPais; }
-            set { IdPais = value; }
-        }
-        private float BaseImp;
 
-        public float BaseImp1
-        {
-            get { return BaseImp; }
-            set { BaseImp = value; }
-        }
-        private float Impiva;
+        private string nIF;
 
-        public float Impiva1
+        public string NIF
         {
-            get { return Impiva; }
-            set { Impiva = value; }
+            get { return nIF; }
+            set { nIF = value; }
         }
-        private float Total;
 
-        public float Total1
+
+        private string direccion;
+
+        public string Direccion
         {
-            get { return Total; }
-            set { Total = value; }
+            get { return direccion; }
+            set { direccion = value; }
         }
+
+
+        private string cP;
+
+        public string CP
+        {
+            get { return cP; }
+            set { cP = value; }
+        }
+
+
+        private string poblacion;
+
+        public string Poblacion
+        {
+            get { return poblacion; }
+            set { poblacion = value; }
+        }
+
+
+        private int idProvincia;
+
+        public int IdProvincia
+        {
+            get { return idProvincia; }
+            set { idProvincia = value; }
+        }
+
+
+        private int idPais;
+
+        public int IdPais
+        {
+            get { return idPais; }
+            set { idPais = value; }
+        }
+
+
+        private float baseImp;
+
+        public float BaseImp
+        {
+            get { return baseImp; }
+            set { baseImp = value; }
+        }
+
+
+        private float impiva;
+
+        public float Impiva
+        {
+            get { return impiva; }
+            set { impiva = value; }
+        }
+
+
+        private float total;
+
+        public float Total
+        {
+            get { return total; }
+            set { total = value; }
+        }
+
+
 
 
     }

@@ -7,76 +7,72 @@ namespace Aplicacion
 {
     public class ENProductos
     {
-        private int IdProducto;
+        private int idProducto;
 
-        public int IdProducto1
+        public int IdProducto
         {
-            get { return IdProducto; }
-            set { IdProducto = value; }
+            get { return idProducto; }
+            set { idProducto = value; }
         }
-        private string Nombre_es;
 
-        public string Nombre_es1
-        {
-            get { return Nombre_es; }
-            set { Nombre_es = value; }
-        }
-        private string Nombre_en;
 
-        public string Nombre_en1
-        {
-            get { return Nombre_en; }
-            set { Nombre_en = value; }
-        }
-        private string Descripcion_es;
+        private string nombre_es;
 
-        public string Descripcion_es1
+        public string Nombre_es
         {
-            get { return Descripcion_es; }
-            set { Descripcion_es = value; }
+            get { return nombre_es; }
+            set { nombre_es = value; }
         }
-        private string Descripcion_en;
 
-        public string Descripcion_en1
-        {
-            get { return Descripcion_en; }
-            set { Descripcion_en = value; }
-        }
-        private float PVP;
 
-        public float PVP1
-        {
-            get { return PVP; }
-            set { PVP = value; }
-        }
-        private int IdFamilia;
+        private string nombre_en;
 
-        public int IdFamilia1
+        public string Nombre_en
         {
-            get { return IdFamilia; }
-            set { IdFamilia = value; }
+            get { return nombre_en; }
+            set { nombre_en = value; }
         }
-        private int IdMarca;
 
-        public int IdMarca1
-        {
-            get { return IdMarca; }
-            set { IdMarca = value; }
-        }
-        private int Stock;
 
-        public int Stock1
-        {
-            get { return Stock; }
-            set { Stock = value; }
-        }
-        private float Valoracion;
+        private string descripcion_es;
 
-        public float Valoracion1
+        public string Descripcion_es
         {
-            get { return Valoracion; }
-            set { Valoracion = value; }
+            get { return descripcion_es; }
+            set { descripcion_es = value; }
         }
+
+
+        private string descripcion_en;
+
+        public string Descripcion_en
+        {
+            get { return descripcion_en; }
+            set { descripcion_en = value; }
+        }
+
+
+        private float pVP;
+
+        public float PVP
+        {
+            get { return pVP; }
+            set { pVP = value; }
+        }
+
+
+        private int idFamilia;
+
+
+        private int idMarca;
+
+
+        private int stock;
+
+
+        private float valoracion;
+
+
 
     }
 }
